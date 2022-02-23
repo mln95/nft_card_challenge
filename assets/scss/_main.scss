@@ -66,4 +66,26 @@
         margin-bottom: 16px;
     }
 
+    #creator {
+        display: flex;
+        align-items: center;
+        padding-bottom: 32px;
+        img {
+            width: 15%;
+            border: 1px solid white;
+            border-radius: 50%;
+            margin-right: 16px;
+        }
+
+        p {
+            color: #8BACD9;
+
+            span {
+                color: white;
+            }
+        }
+
+
+    }
+
   }
