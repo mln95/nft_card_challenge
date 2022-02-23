@@ -28,11 +28,54 @@ body {
   margin-bottom: 24px;
 }
 
-#card p:nth-of-type(1) {
+#card .description {
   text-align: left;
   color: #8BACD9;
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 31px;
+}
+
+#card #icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#card #icon_ethereum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#card #icon_ethereum p {
+  color: #00FFF8;
+  margin-left: 10px;
+}
+
+#card #icon_clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#card #icon_clock p {
+  color: #8BACD9;
+  margin-left: 10px;
+}
+
+#card #line {
+  border: 1px solid #2E405A;
+  margin-top: 27px;
+  margin-bottom: 16px;
 }
 /*# sourceMappingURL=style.css.map */

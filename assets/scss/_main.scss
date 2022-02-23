@@ -27,12 +27,43 @@
         margin-bottom: 24px;
     }
 
-    p:nth-of-type(1) {
+    .description {
         text-align: left;
         color: #8BACD9;
         font-size: 18px;
         font-weight: 300;
         margin-bottom: 31px;
+    }
+
+    #icon {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #icon_ethereum {
+        display: flex;
+        align-items: center;
+
+        p {
+            color: #00FFF8;
+            margin-left: 10px;
+        }
+    }
+
+    #icon_clock {
+        display: flex;
+        align-items: center;
+
+        p {
+            color: #8BACD9;
+            margin-left: 10px;
+        }
+    }
+
+    #line {
+        border: 1px solid #2E405A;
+        margin-top: 27px;
+        margin-bottom: 16px;
     }
 
   }
